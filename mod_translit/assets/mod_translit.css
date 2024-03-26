@@ -1,0 +1,170 @@
+
+#g-navigation.diyar-main-navigation.home-navigation{
+    z-index: 300;
+}
+a{
+    cursor: pointer;
+}
+.lugat-wordlist-container{
+    position: relative;
+}
+#lugat-wordlist-header{
+    width: 100%;
+    padding: 0.5em;
+    z-index: 200;
+    display: grid;
+    align-items: center;
+    padding: 4em 0 2em;
+    min-height: 200px;
+    text-align: center;
+    background-color: black;
+}
+#lugat-wordlist-header .lugat-wordlist-header-container{
+    padding: 1em;
+}
+
+.letter-list{
+    font-size: 17px;
+}
+.rus-letters{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+.letter-list a{
+    font-weight: bold;
+    padding: 4px 6px;
+    margin: 3px;
+    background-color: #243b37;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+.letter-list a.active-letter{
+    background-color: #62cf34;
+}
+.letter-list a.disabled{
+    color: gray;
+    pointer-events: none;
+}
+.modified{
+    color: gray;
+    font-size: 13px;
+    text-align: right;
+}
+#lugat-wordlist-body{
+    width: 80%;
+    margin: 1em auto;
+}
+
+#lugat-wordlist-body form{
+    
+}
+#lugat-wordlist-body .lugat-wordlist-title{
+    text-align: center;
+}
+#lugat-wordlist-body .word-block{
+    display: block;
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    box-shadow: 0px 7px 15px -14px #0000004a;
+    border-radius: 5px;
+}
+#lugat-wordlist-body .word-block.block-searched{
+    background-color: #fffbe3;
+}
+#lugat-wordlist-body .word-block .source-word{
+    font-size: 16px;
+    font-weight: bold;
+}
+#lugat-wordlist-body .word-block .pts-tag{
+    margin: 0 1em;
+    color: gray;
+    font-style: italic;
+}
+#lugat-wordlist-body .word-block .referent-words{
+    
+}
+#lugat-wordlist-footer{
+    width: 80%;
+    margin: 0 auto;
+}
+#lugat-wordlist-footer .total{
+    text-align: center;
+}
+#lugat-wordlist-footer .pagination{
+    
+}
+#lugat-wordlist-footer a{
+    
+}
+#lugat-wordlist-footer .pagination .page-item{
+    
+    padding: 7px 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #00000042;
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
+#lugat-wordlist-footer .pagination .page-item:hover{
+    
+    box-shadow: 1px 1px 10px #00000054;
+    z-index: 200;
+    position: relative;
+}
+#lugat-wordlist-footer .pagination .page-item.first-page{
+    
+}
+#lugat-wordlist-footer .pagination .page-item.first-page{
+    
+}
+#lugat-wordlist-footer .pagination .page-item.current-page{
+    
+}
+#lugat-wordlist-footer .pagination .page-item.next-page{
+    
+}
+#lugat-wordlist-footer .pagination .page-item.last-page{
+    
+}
+#lugat-wordlist-footer .pagination .page-navigation {
+    
+    padding: 7px 0px;
+    border: 2px solid #62cf34;
+    border-radius: 5px;
+    color: white;
+    background: #62cf34;
+    font-weight: bold;
+    transition: 0.5s ease;
+    box-shadow: 1px 1px 5px #00000042;
+    position: relative;
+    z-index: 100;
+}
+#lugat-wordlist-footer .pagination .page-navigation:hover {
+    
+    background-color: #4fa831;
+    border-color: #4fa831;
+    box-shadow: 1px 1px 10px #0000007d;
+    z-index: 200;
+    position: relative;
+}
+#lugat-wordlist-footer .pagination .page-navigation.prev-page {
+    
+}
+#lugat-wordlist-footer .pagination .page-navigation.next-page {
+    
+}
+@media all and (max-width: 700px){
+    #lugat-wordlist-body,
+    #lugat-wordlist-footer{
+        width: 98%;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<extension type = "module" version = "3.1.0" client = "site" method="upgrade">
+
+    <name>Transliterator</name>
+    <author>Adam Hider</author>
+    <version>1.0.0</version>
+    <description>A simple translit module.</description>
+
+    <files>
+        <filename>mod_translit.xml</filename>
+        <filename module = "mod_translit">mod_translit.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>language</folder>
+        <folder>assets</folder>
+        <folder>tmpl</folder>
+    </files>
+   
+    <config>
+        
+    </config>
+    
+    <languages folder="language">
+            <language tag="en-GB">en-GB/en-GB.mod_translit.sys.ini</language>
+            <language tag="en-GB">en-GB/en-GB.mod_translit.ini</language>
+            <language tag="uk-UA">uk-UA/uk-UA.mod_translit.sys.ini</language>
+            <language tag="uk-UA">uk-UA/uk-UA.mod_translit.ini</language>
+            <language tag="tr-TR">tr-TR/tr-TR.mod_translit.sys.ini</language>
+            <language tag="tr-TR">tr-TR/tr-TR.mod_translit.ini</language>
+    </languages>
+    
+</extension>
